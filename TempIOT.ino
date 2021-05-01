@@ -39,4 +39,5 @@ void loop(void)
   Serial.print("Temperature: ");
   Serial.print(tempSensor.getTempCByIndex(0));
   Serial.println(" C");
+  
 }
